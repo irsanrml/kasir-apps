@@ -6,7 +6,7 @@ import 'package:tugas5/pages/profile.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 class MainPage extends StatefulWidget {
-  const new({super.key});
+  const MainPage({super.key});
 
   @override
   State<MainPage> createState() => _MainPageState();
