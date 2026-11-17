@@ -5,7 +5,7 @@ import 'package:tugas5/pages/login.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 class ProfilePage extends StatefulWidget {
-  const new({super.key});
+  const ProfilePage({super.key});
 
   @override
   State<ProfilePage> createState() => _ProfilePageState();
@@ -129,24 +129,6 @@ class _ProfilePageState extends State<ProfilePage> {
           ],
         ),
       ),
-      //   bottomNavigationBar: BottomNavigationBar(
-      //     currentIndex: 3,
-      //     items: [
-      //       BottomNavigationBarItem(icon: Icon(LucideIcons.home), label: 'Home'),
-      //       BottomNavigationBarItem(
-      //         icon: Icon(LucideIcons.scanLine),
-      //         label: 'Kasir',
-      //       ),
-      //       BottomNavigationBarItem(
-      //         icon: Icon(LucideIcons.scrollText),
-      //         label: 'Riwayat',
-      //       ),
-      //       BottomNavigationBarItem(
-      //         icon: Icon(LucideIcons.user),
-      //         label: 'Profile',
-      //       ),
-      //     ],
-      //   ),
     );
   }
 }
