@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:tugas5/colors.dart';
 import 'package:tugas5/components/reguler_text.dart';
 import 'package:tugas5/components/subtitle_text.dart';
